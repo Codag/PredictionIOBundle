@@ -1,0 +1,24 @@
+{
+    "name": "predictionio/predictionio-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony2 Bundle for PredictionIO integration",
+    "keywords": ["predictionio", "api"],
+    "homepage": "http://prediction.io",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "The PredictionIO Team",
+            "email": "help@tappingstone.com",
+            "homepage": "http://prediction.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "2.*",
+        "predictionio/predictionio": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "PredictionIO\\PredictionIOBundle": "" }
+    },
+    "target-dir": "PredictionIO/PredictionIOBundle"
+}
