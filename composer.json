@@ -1,7 +1,7 @@
 {
     "name": "codag/predictionio-bundle",
     "type": "symfony-bundle",
-    "description": "Symfony2 Bundle for Codag integration",
+    "description": "Symfony2 Bundle for PredictionIO integration",
     "keywords": ["predictionio", "api"],
     "homepage": "http://prediction.io",
     "license": "Apache-2.0",
