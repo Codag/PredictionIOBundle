@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class PredictionIOPredictionIOExtension extends Extension
+class CodagPredictionIOExtension extends Extension
 {
     /**
      * {@inheritDoc}
@@ -27,7 +27,7 @@ class PredictionIOPredictionIOExtension extends Extension
 
         foreach (array('app_key') as $attribute) {
             if (isset($config[$attribute])) {
-                $container->setParameter('prediction_io_prediction_io.' . $attribute, $config[$attribute]);
+                $container->setParameter('prediction_io.' . $attribute, $config[$attribute]);
             }
         }
     }

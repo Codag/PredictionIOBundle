@@ -19,7 +19,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('prediction_io_prediction_io');
+        $rootNode = $treeBuilder->root('prediction_io');
 
         $rootNode->children()
             ->scalarNode('app_key')
