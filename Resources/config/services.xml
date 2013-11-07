@@ -6,7 +6,7 @@
 
     <parameters>
         <parameter key="predictionio.app_key">null</parameter>
-        <parameter key="predictionio.service.class">PredictionIO\PredictionIOBundle\Api\PredictionIO</parameter>
+        <parameter key="predictionio.service.class">Codag\PredictionIOBundle\Api\PredictionIO</parameter>
     </parameters>
 
     <services>

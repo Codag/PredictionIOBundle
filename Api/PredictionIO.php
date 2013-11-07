@@ -1,6 +1,6 @@
 <?php
 /*
- * This file is part of the PredictionIO package.
+ * This file is part of the Codag package.
  *
  * (c) Marc Juchli <mail@marcjuch.li>
  *
@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PredictionIO\PredictionIOBundle\Api;
+namespace Codag\PredictionIOBundle\Api;
 
 use PredictionIO\PredictionIOClient;
 

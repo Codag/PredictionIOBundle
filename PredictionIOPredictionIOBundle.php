@@ -1,6 +1,6 @@
 <?php
 
-namespace PredictionIO\PredictionIOBundle;
+namespace Codag\PredictionIOBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
