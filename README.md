@@ -8,6 +8,7 @@ This bundle provides an [PredictionIO](http://prediction.io/) integration for yo
 [![Latest Stable Version](https://poser.pugx.org/codag/predictionio-bundle/v/stable.png)](https://packagist.org/packages/codag/predictionio-bundle)
 
 **PredictionIO Methods Supported**
+
 This Bundle is just a wrapper for the [PredictionIO-PHP-SDK](https://github.com/PredictionIO/PredictionIO-PHP-SDK) and will support all methods provided in the SDK.
 
 ## Installation
