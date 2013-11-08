@@ -5,13 +5,15 @@
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <parameters>
-        <parameter key="predictionio.app_key">null</parameter>
-        <parameter key="predictionio.service.class">Codag\PredictionIOBundle\Api\PredictionIO</parameter>
+        <parameter key="prediction_io.app_key">null</parameter>
+        <parameter key="prediction_io.api_url">null</parameter>
+        <parameter key="codag_prediction_io.service.class">Codag\PredictionIOBundle\Api\PredictionIO</parameter>
     </parameters>
 
     <services>
-        <service id="predictionio" class="%predictionio.service.class%">
-            <argument>%predictionio.app_key%</argument>
+        <service id="predictionio" class="%codag_prediction_io.service.class%">
+            <argument>%prediction_io.app_key%</argument>
+            <argument>%prediction_io.api_url%</argument>
         </service>
     </services>
 

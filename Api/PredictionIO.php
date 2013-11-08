@@ -1,6 +1,6 @@
 <?php
 /*
- * This file is part of the Codag package.
+ * This file is part of the PredictionIO package.
  *
  * (c) Marc Juchli <mail@marcjuch.li>
  *
@@ -16,11 +16,19 @@ class PredictionIO {
 
     protected $appKey;
 
-    public function __construct($appKey){
+    protected $apiUrl;
+
+    public function __construct($appKey, $apiUrl){
         $this->appKey = $appKey;
+        $this->apiUrl = $apiUrl;
     }
 
     public function getClient(){
-        return PredictionIOClient::factory(array("appkey" => $this->appKey));
+        return PredictionIOClient::factory(
+            array(
+                "appkey" => $this->appKey,
+                "apiurl" => $this->apiUrl
+            )
+        );
     }
 } 
