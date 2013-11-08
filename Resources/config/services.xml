@@ -11,7 +11,7 @@
     </parameters>
 
     <services>
-        <service id="predictionio" class="%codag_prediction_io.service.class%">
+        <service id="codag.predictionio" class="%codag_prediction_io.service.class%">
             <argument>%prediction_io.app_key%</argument>
             <argument>%prediction_io.api_url%</argument>
         </service>
