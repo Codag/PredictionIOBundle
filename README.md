@@ -52,7 +52,7 @@ Yml configuration:
 
 codag_prediction_io:
     app_key: Your App Key
-    api_url: Your Api Url
+    api_url: Your Api Url  # Optional
 
 ```
 
@@ -70,7 +70,7 @@ For further implementation examples please see also our [Sandbox](https://github
 If the bundle doesn't allow you to customize an option, I invite you to fork the project, create a feature branch, and send a pull request.
 
 To ensure a consistent code base, you should make sure the code follows
-the [Coding Standards](http://symfony.com/doc/2.1/contributing/code/standards.html).
+the [Coding Standards](http://symfony.com/doc/current/contributing/code/standards.html).
 
 
 ##License
