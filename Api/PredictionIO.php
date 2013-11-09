@@ -18,7 +18,7 @@ class PredictionIO {
 
     protected $apiUrl;
 
-    public function __construct($appKey, $apiUrl){
+    public function __construct($appKey, $apiUrl = null){
         $this->appKey = $appKey;
         $this->apiUrl = $apiUrl;
     }
@@ -30,5 +30,13 @@ class PredictionIO {
                 "apiurl" => $this->apiUrl
             )
         );
+    }
+
+    public function getAppKey(){
+        return $this->appKey;
+    }
+
+    public function getApiUrl(){
+        return $this->apiUrl;
     }
 } 
