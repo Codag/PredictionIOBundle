@@ -5,6 +5,7 @@
     "keywords": ["predictionio", "api"],
     "homepage": "http://prediction.io",
     "license": "Apache-2.0",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Codag",
